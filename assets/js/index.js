@@ -317,7 +317,7 @@ function mostrarAlquiler(){
         }
         else{
             card_html += `
-                        <p class="text-success">
+                        <p class="text-danger">
                             <i class="fas fa-smoking-ban"></i> No se permite fumar
                         </p>
                     `
@@ -384,7 +384,7 @@ function mostrarVenta(){
         }
         else{
             card_html += `
-                        <p class="text-success">
+                        <p class="text-danger">
                             <i class="fas fa-smoking-ban"></i> No se permite fumar
                         </p>
                     `
